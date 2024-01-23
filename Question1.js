@@ -1,3 +1,12 @@
-const message= "Hello World!!";
 
-console.log(message)
+// Reverse a String
+
+function reverseString (str)
+{
+    return str.split('').reverse().join('');
+}
+
+console.log(reverseString("Deepankar"));
+
+
+
